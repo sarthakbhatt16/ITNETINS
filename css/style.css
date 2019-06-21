@@ -17,6 +17,21 @@ CSS STRUCTURE:
 /* 1.  SITE STRUCTURE and TYPOGRAPHY */
 /*============================================================================================*/
 /* Structure */
+.align{
+	text-align: justify;
+}
+.bullet-style{
+	list-style-type: disc;
+}
+.layout{
+	text-align: justify;
+}
+.structure{
+	display: flex;
+	flex-direction: row;
+	height: 70px;
+	margin: 10px 0px;
+}
 body {
 	font-family: 'Raleway', Arial, Helvetica, sans-serif;
 	font-size:14px;
@@ -2413,8 +2428,9 @@ ul.list_2 li a:hover {
 	font-weight:bold;
 }
 .circ-wrapper {
-		width: 80px;
-		height: 80px;
+		width: 120px;
+		height: 120px;
+		border-radius: 20px;
 		text-align: center;
 		background:#0cbdaa;
 		color:#FFF;
