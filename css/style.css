@@ -761,6 +761,7 @@ a.button_fullwidth-3:hover, .button_fullwidth-3:hover  {background:#262c2d; colo
 	background: #1abc9c url(../img/users_bg.jpg) repeat 0 0;
 	padding:60px 0;
 	color:#fff;
+	display: none;
 	}
 .container_count {
 	width:60px;
