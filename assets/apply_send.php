@@ -50,7 +50,7 @@ function delayedRedirect(){
 						$mail = $_POST['email'];
 
 						/*$subject = "".$_POST['subject'];*/
-						$to = "contact@itnetinstitute.com"; 			/* YOUR EMAIL HERE */
+						$to = "contact@itnetinstitute"; 			/* YOUR EMAIL HERE */
 						$subject = "Subscription from INI";
 						$headers = "From: Subscription from LEARN <noreply@yourdomain.com>";
 						$message = "USER INFO\n";
