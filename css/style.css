@@ -2926,6 +2926,44 @@ footer h3 {
  /** End 1.5 CSS New ==================== **/	
 }
 
+/* Accordion CSS */
+/* Start */
+
+/* accordion style */
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+	
+  }
+  
+  .active, .accordion:hover {
+	background-color: #ccc; 
+	
+  }
+  
+  .panel {
+	padding: 0 18px;
+	display: none;
+	background-color: rgb(236, 236, 236);
+	overflow: hidden;
+  }
+
+
+/* sub-accordion style */
+
+
+
+/* End */
+
+
 /* Mobile Portrait */
 @media only screen and (max-width: 320px) {
 
