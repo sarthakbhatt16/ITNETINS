@@ -1211,6 +1211,14 @@ border-radius: 0;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 	padding:30px;
 }
+#login_new{
+	background-color:#fff;
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 0 5 rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+	padding:30px;
+	width: max-content;
+}
 /* #lwizard apply */
 #top-wizard {
 	text-align:center;
@@ -2931,7 +2939,7 @@ footer h3 {
 
 /* accordion style */
 .accordion {
-	background-color: #eee;
+	background-color: #fff;
 	color: #444;
 	cursor: pointer;
 	padding: 18px;
@@ -2945,18 +2953,33 @@ footer h3 {
   }
   
   .active, .accordion:hover {
-	background-color: #ccc; 
+	background-color: #fff; 
 	
   }
   
-  .panel {
+  .panelNew {
 	padding: 0 18px;
 	display: none;
-	background-color: rgb(236, 236, 236);
+	background-color: rgb(255, 255, 255);
 	overflow: hidden;
   }
 
+.FAQ_Topic_Title{
+	width: 100%;
+	background-color:gray;
+}
 
+.divider_height{
+	height: 2px;
+}
+
+.accordion_button{
+	font-size:24px;
+	float: right;
+}
+.panelNew>p{
+	text-align: justify;
+}
 /* sub-accordion style */
 
 
