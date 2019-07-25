@@ -71,7 +71,7 @@ if(get_magic_quotes_gpc()) {
 
 
 //$address = "HERE your email address";
-$address = "test@ansonika.com";
+$address = "contact@itnetinstitute.com";
 
 
 // Below the subject of the email
@@ -93,7 +93,7 @@ $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 $user = "$email_apply";
 $usersubject = "Thank You";
-$userheaders = "From: info@learn.com\n";
+$userheaders = "contact@itnetinstitute.com\n";
 $usermessage = "Thank you for contact LEARN. We will reply shortly with more details on the course: $course_apply";
 mail($user,$usersubject,$usermessage,$userheaders);
 

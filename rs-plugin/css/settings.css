@@ -697,7 +697,7 @@ border-style:none;
 }
 
 .tp-caption.small_thin_grey {
-font-size:18px;
+font-size:22px;
 line-height:26px;
 font-weight:300;
 
@@ -715,9 +715,9 @@ border-style:none;
 .tp-caption.small_thin_white {
 font-size:18px;
 line-height:26px;
-font-weight:400;
+font-weight:bolder;
 
-color:#fff;
+color:rgb(255, 255, 255);
 text-decoration:none;
 background-color:transparent;
 padding:1px 4px 0px;
@@ -890,9 +890,9 @@ border-style:none;
 }
 
 .tp-caption.mediumlarge_light_white_center {
-font-size:34px;
+font-size:28px;
 line-height:40px;
-font-weight:300;
+font-weight:bolder;
 
 color:#ffffff;
 text-decoration:none;
